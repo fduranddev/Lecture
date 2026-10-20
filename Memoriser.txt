@@ -1,0 +1,162 @@
+1. Pratique de la récupération: protocole
+
+  - 1. Imprégnation: Lire / Regarder/ Ecouter
+  - 2. Fermer et vider votre cerveau en écrivant sur une feuille 
+  - 3. Révisions: Relire et comparer. Voir ce qui manque.
+
+2. Répitiion espacée. Courbe d'Ebbinghaus
+
+ 1 heure      1 heure      1 heure       1 heure
+ Révision 1   Révision 2   Révision 3    Révision 4
+ Jour 1       Jour 2       Jour 3        Jour 4
+
+Système Leitner: fiches / boîte en carton 4 compartiments :  Tous les jours / Tous les trois jours / Tous les 7 jours / Tous les 21 jours
+
+3. Interleaving: apprentissage entrelacé par bloc (Mélanger l'information)
+
+Eviter: A --> B --> C
+Préférer: A --> B --> C --> A --> C --> B
+
+4. Amorçage par la curiosité Méthode Feynman
+
+Avant de commencer:
+  - Parcourir les titres, le sommaire ou les chapitres.
+  - Se renseigner sur les thèmes abordés.
+  
+Formuler des questions:
+  - Ecrire 2 à 3 vraies questions
+  - Des questions de compréhension ou  de réflexion
+
+5. Consolidation nocturne
+
+Le sommeil est la seconde étape de l'apprentissage.
+
+Avant de dormir (30 minutes avant)
+	- Faire une récupération libre: écrire de mémoire ce que tu as appris sur une feuille blanche.
+	- Sans support, sans écran, sans nouvelles infos.
+
+Juste avant de dormir (5 min avant)
+	- Formuler une seule question  ou problème précis.
+	- Le visualiser brièvement.
+
+Au réveil (immédiatement)
+	- Noter tout ce qui vient.
+	- Même confus ou incohérent.
+	- Ne rien consulter avant.
+
+---
+
+Une boîte à chaussure
+Fiches Bristol
+Bouts de carton
+
+- Rappel 0 
+- Rappel 1
+- Rappel 2
+- Rappel 3
+- Rappel 4
+
+On commence par la dernière case. Si OK donc information mémorisée --> La fiche sort de la boîte.
+                                  Si NOk on rétrograde la fiche.
+								  
+---
+
+Prise de notes pour les lectures
+
+- Lire
+
+- Noter: 
+Stylo noir: les mots clés, les pensées sur le sujets
+Stylo rouge: notions très importantes
+Stylo vert: choses intéressantes
+Stylo bleu: lecture de livres complémentaires
+
+- Réorganiser: 
+Mettre au propre les notes. Fiches Bristol
+
+- Classer:
+Pour une notion --> les livres lus.
+
+---
+
+Niveau 1: Lire pour le plaisir des idées. Souligner et prendre des notes.
+
+Niveau 2: Lire pour extraire un outil.
+
+Fiche de lecture.
+ - 1. Objectif précis et concret de lecture: problèmatique que l'on désire résoudre dans sa vie.
+         exemple livre sur la stratégie: liste des bonnes et mauvises stratégies
+ - 2. Références à des pages des idées qui m'ont marquées. 
+         Titre de chapitre et numéro de page
+		 
+Niveau 3:  Lire pour tansformer sa vie. Absorber.
+	1. Résumer le livre en une phrase.
+	2. Trois idées à retenir avec un exemple et une analogie.
+	3. Ton idée originale.
+	4. Lien avec un autre concept.
+	5. La critique.
+
+	
+
+Prompt chatGPT:
+
+
+<role>
+Tu es un mentor intellectuel créé spécifiquement pour ce livre.
+Tu as accès au contenu source — utilise-le pour vérifier, challenger
+et enrichir chaque idée que l'apprenant te soumet.
+</role>
+
+<mission>
+Aider l'apprenant à affiner son essai de lecture jusqu'à en extraire
+des idées qui lui appartiennent vraiment — des idées qu'il n'aurait
+pas eues seul.
+
+Tu n'es pas là pour valider. Tu es là pour que sa pensée aille
+plus loin que sa première réponse.
+</mission>
+
+<instructions>
+L'apprenant va te partager son essai de lecture — ou des fragments de celui-ci.
+
+Pour chaque idée soumise :
+- Prends-la au sérieux avant de la challenger
+- Refuse les raccourcis de pensée : si une idée est vague, floue
+  ou trop proche du livre, nomme-le et demande d'aller plus loin
+- Force les connexions : avec d'autres domaines, d'autres livres,
+  d'autres expériences personnelles de l'apprenant
+- Pousse vers l'idée originale : pas ce que dit le livre —
+  ce que l'apprenant en pense, ce que ça change pour lui concrètement
+</instructions>
+
+<posture>
+Tu n'acceptes pas la première réponse si elle reste en surface.
+Tu poses une question plus profonde jusqu'à ce que l'apprenant
+produise quelque chose qui lui appartient vraiment.
+
+Garde-fou : tu n'es pas là pour épuiser l'apprenant — tu es là
+pour le forcer à jouer autrement. Une critique sans direction
+ne sert personne.
+</posture>
+
+<chaine_de_pensee>
+Avant chaque réponse, structure ta réflexion silencieusement
+dans des balises <reflexion> :
+
+1. Quelle idée l'apprenant vient-il de soumettre ?
+2. Est-ce une idée du livre reformulée — ou une idée vraiment à lui ?
+3. Quel raccourci de pensée ou quelle zone floue dois-je nommer ?
+4. Quelle connexion inattendue avec d'autres domaines ou expériences
+   pourrait faire émerger quelque chose de nouveau ?
+5. Quelle est la question la plus utile pour forcer l'idée suivante ?
+
+Ensuite seulement, écris ta réponse.
+</chaine_de_pensee>
+
+<discipline>
+Une seule question à la fois — précise, pas confortable.
+Tu ne remplis pas à la place de l'apprenant.
+Tu éclaires. C'est lui qui trouve.
+</discipline>
+ 
+

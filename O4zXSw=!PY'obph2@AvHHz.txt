@@ -1,0 +1,226 @@
+O4z/?XSw=!PY'obph2@AvHHz
+
+
+
+N87hW(r}a'Pf3T9
+
+(}
+
+'
+
+cd /tmp/veeam_plugin_logs/ && tar -cvf - . |  gzip -9  >  ~/$(hostname)-$(date +"%Y-%m-%d_%H-%M-%S-%z-")-veeam_plugin_logs.tar.gz && cd -
+
+
+
+
+# Logs système réseau
+journalctl -u NetworkManager
+
+# Messages noyau liés au réseau
+dmesg | grep -i network
+
+# Logs système
+/var/log/syslog
+/var/log/messages
+
+# Connexions actives
+ss -tunap
+
+tcpdump -i eth0 -w capture_reseau.pcap
+
+-------------------------------------------------------------------------------------
+
+df -h  vgs    root: #Mlr8205?    fr9-pl-db05 --> 05  fr9-pl-db02  --> 02
+
+#Mlr8205!
+
+su - 
+#Mlr8205?
+
+
+. oraenv<<<magicp11
+bss
+
+sqlplus / as sysdba
+
+ps -ef | grep veeam
+
+FR7-PL-DBO01: Oracle 11g release 11.2.0.4.0
+FR7-DL-DBO01:
+
+ssys
+FRDTC7DXORDB001
+FRDTC7PXORDB001: listerner redémarré--> OK
+
+ps -ef | grep tnslsnr
+
+- tnslsnr: le programme du listener ORACLE
+- LISTENER: le nom du listener (c'est le nom par défaut)
+- -iherit:une option interne utilisée par Oracle au démarrage; elle est normale.
+
+
+ss -ltnp |grep 1521
+
+netstat -an
+
+
+
+INC479774
+INC479775
+INC479777
+
+Bonjour, 
+Etape 1: Se connecter au server avec le login oracle;
+Etape 2: Vérifier les variables ORACLE_HOME et PATH : export ORACLE_HOME=/opt/oracle/product/la_version_d'oracle; export PATH=$ORACLE_HOME/bin:$PATH
+Etape 3: lancer la commande lsnrctl > taper status > voir l'état des listeners (voir fichier en pièce jointe) et ensuite taper: lsnrctl start (listener ou listerner_dev)
+Etape 4: Vérifier si les listeners sont démarrés.
+
+_____________________________
+
+Erreurs:
+oracle@fr7-pl-dbo01.unibail.fr
+
+le Sun Aug 02 - magicp11 ok
+
+Recherche dans le fichier /opt/oracle/admin/magicp11/bdump/alert_magicp11.log
+Les erreurs ORA- survenu le Sun Aug 02
+
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+        TNS for Linux: Version 11.2.0.4.0 - Production
+        Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+        TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+  Time: 02-AUG-2026 14:34:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+   
+TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+   
+TNS-00505: Operation timed out
+    nt secondary err code: 110
+    nt OS err code: 0
+  Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.9.109.69)(PORT=50764))
+Sun Aug 02 23:00:03 2026
+DM00 started with pid=121, OS id=35503, job DBAEXP.EXPDP_MAGICP11_MAGICEXPO
+Sun Aug 02 23:00:05 2026
+DW00 started with pid=123, OS id=35508, wid=1, job DBAEXP.EXPDP_MAGICP11_MAGICEXPO
+Sun Aug 02 23:17:43 2026
+Thread 1 cannot allocate new log, sequence 9143
+Private strand flush not complete
+  Current log# 1 seq# 9142 mem# 0: /u40/oradata/magicp11/redo01m1.log
+  Current log# 1 seq# 9142 mem# 1: /u41/oradata/magicp11/redo01m2.log
+Thread 1 advanced to log sequence 9143 (LGWR switch)
+  Current log# 2 seq# 9143 mem# 0: /u40/oradata/magicp11/redo02m1.log
+  Current log# 2 seq# 9143 mem# 1: /u41/oradata/magicp11/redo02m2.log
+Sun Aug 02 23:17:54 2026
+Archived Log entry 9135 added for thread 1 sequence 9142 ID 0x486f75e2 dest 1:
+Mon Aug 03 00:05:02 2026
+
+
+---
+
+frdtc1pxordb010.unibail.fr
+
+le 2026-08-02T - p06cdb06 KO
+
+
+LEASEIT25(4):ORA-00060: Deadlock detected. See Note 60.1 at My Oracle Support for Troubleshooting ORA-60 Errors. More info in file /opt/oracle/diag/rdbms/prod/prod/trace/prod_ora_3633574.trc.
+
+
+
+TNS-00505: Operation timed out
+    nt secondary err code: 110
+    nt OS err code: 0
+  Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=109.9.109.69)(PORT=50764))
+Sun Aug 02 23:00:03 2026
+DM00 started with pid=121, OS id=35503, job DBAEXP.EXPDP_PROD_PRODEXPO
+Sun Aug 02 23:00:05 2026
+DW00 started with pid=123, OS id=35508, wid=1, job DBAEXP.EXPDP_PROD_PRODEXPO
+Sun Aug 02 23:17:43 2026
+Thread 1 cannot allocate new log, sequence 9143
+Private strand flush not complete
+  Current log# 1 seq# 9142 mem# 0: /u40/oradata/prod/redo01m1.log
+  Current log# 1 seq# 9142 mem# 1: /u41/oradata/prod/redo01m2.log
+Thread 1 advanced to log sequence 9143 (LGWR switch)
+  Current log# 2 seq# 9143 mem# 0: /u40/oradata/prod/redo02m1.log
+  Current log# 2 seq# 9143 mem# 1: /u41/oradata/prod/redo02m2.log
+Sun Aug 02 23:17:54 2026
+Archived Log entry 9135 added for thread 1 sequence 9142 ID 0x486f75e2 dest 1:
+Mon Aug 03 00:05:02 2026
+
+SELECT group#,
+       bytes/1024/1024 taille_mo,
+       status
+FROM v$log;
+
+SELECT COUNT(*) AS nb_switch,
+       TRUNC(first_time,'HH24') heure
+FROM v$log_history
+WHERE first_time > SYSDATE - 1
+GROUP BY TRUNC(first_time,'HH24')
+ORDER BY heure;
+
+Il y a des erreurs Oracle !!!!
+ORA-01034: ORACLE not available
+ORA-27101: shared memory realm does not exist
+
+. Il faut lancer les listeners
+
+---> . oraenv<<<P2essai
+---> sqlplus / as sysdba
+---> startup
+
+-----------------------------------------------
+
+
+Rapport Aubin
+
+dissonance identitaire
+
+Emmanuel Brenner: Les territoires perdus de la République
+
+Régis Debray: Eloge des frontières
+
+Marc Bloch: L'étrange défaite
+
+Marc Trévidic: 
+
+Ernest Renan: Qu'est-ce qu'une question ?
+
+Malika Sorel-Sutter: - Immigration-intégration: Le langage de vérité
+                     - Les Dindons de la force 
+
+Annie Lacroix-Riz: 
+
+
+
+[Décomposition française (Malika Sorel-Sutter)](https://www.youtube.com/watch?v=EWpK5LWv2zc)
+L'arrogance et l'aveuglement se cautionnent l'un, l'autre entretenus par la nullité des élites : généralisation du syndrome du général Gamelin.
+Cooptation d'une classe dirigeante qui nie la réalité.
+La France dans son essence ne survivrera pas à la politique migratoire actuelle.
+Un milieu d'arrivistes qui alimente un suivisme.
+Droitardés et gauchiasses.
+
+gauchiasses:dingues
+centrouilles:pourris
+droitards:
+
+Voclin
+
+Rushdy
+
+
+
+
+
+
+
+
+
+
+
+

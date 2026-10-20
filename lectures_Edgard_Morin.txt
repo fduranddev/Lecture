@@ -1,0 +1,50 @@
+podman run --name postgres16-lab \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=admin \
+  -e POSTGRES_DB=postgres \
+  -p 5432:5432 \
+  -v /home/durandf/postgres-lab/data:/var/lib/postgresql/data:Z \
+  -v /home/durandf/postgres-lab/init:/docker-entrypoint-initdb.d:Z \
+  -v /home/durandf/postgres-lab/backup:/backup:Z \
+  -d docker.io/library/postgres:16 
+  
+ 
+mkdir -p ~/postgres_data
+
+podman run -d \
+ --name postgres18 \
+ -e POSTGRES_USER=postgres \
+ -e POSTGRES_PASSWORD=admin \
+ -p 5436:5432 \
+ -v ~/postgres_data:/var/lib/postgresql/data:Z \
+ docker.io/library/postgres:latest
+ 
+CREATE TABLE clients (
+    id    INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    nom   VARCHAR(100) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    ville VARCHAR(100)
+);
+
+CREATE TABLE produits (
+    id    INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    nom   VARCHAR(100) NOT NULL,
+    prix  NUMERIC(10, 2) NOT NULL CHECK (prix > 0),
+    stock INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE commandes (
+    id            INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    client_id     INTEGER NOT NULL REFERENCES clients(id),
+    date_commande DATE NOT NULL DEFAULT CURRENT_DATE,
+    statut        VARCHAR(20) NOT NULL DEFAULT 'en_attente'
+);
+
+CREATE TABLE lignes_commande (
+    id            INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    commande_id   INTEGER NOT NULL REFERENCES commandes(id) ON DELETE CASCADE,
+    produit_id    INTEGER NOT NULL REFERENCES produits(id),
+    quantite      INTEGER NOT NULL CHECK (quantite > 0),
+    prix_unitaire NUMERIC(10, 2) NOT NULL,
+    UNIQUE (commande_id, produit_id)
+);

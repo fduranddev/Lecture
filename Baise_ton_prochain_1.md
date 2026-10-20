@@ -1,0 +1,199 @@
+**Machiavel: Le Prince**
+
+**Hobbes: Léviathan**:  Etat de rareté. Là guerre de chacun contre chacun. Il faut accepter le tyran.
+
+**Dany Robert-Dufour: Le divin marché**
+
+1714: Fable des abeilles et Recherches sur l'origine de le vertu. Accès à une vérité jamais dite.
+
+Maxime: Les vices (pulsions d'avidité) privés font la vertu (richesse) publique.
+--> 1714: L'aube de la première révolution industrielle: révolution financière britannique, naissance du capitalisme.
+--> manipulation de la classe dominante.
+
+Pour sortir de la rareté, il faut donner le pouvoir aux pervers.
+
+Bernard de Mandeville: Man Devil
+
+**Adam Smith: Richesse des Nations**
+
+1947: Société du Mont Pellerin (Suisse) par Friedrich Hayek.
+
+L'école de Chicago. Théorie du néolibéralisme.
+
+Ils propagent cette théorie en s'opposant au keynésianisme.
+
+Le marché est le dessein supérieur auquel tout individu doit se soumettre même si celui-ci ne comprend pas les visées du marché.
+
+Entrée dans un marché dérégulé.
+
+**Naomi Klein: La Stratégie du choc**
+
+Selon Dany-Robert Dufour, on doit au calviniste Bernard de Mandeville les fondements 
+de la pensée économique libérale, qui s’appuie sur nos pulsions inavouées.
+Les hommes ne sont pas là où ils pensent. Les hommes ne sont pas vertueux.
+L'invention de l'inconscient permet de manipuler les vertueux en maintenant les hommes en bride.
+
+Les thèses de Mandeville ont été occultées par quatre moyens:
+
+\- l'image altruiste inauthentique de l'homme;--> notre vertu est du toc;
+
+\- Bruler les livres de Mandeville dans toute l'Europe pour faire disparaitre ses thèses;
+
+\- Adam Smith: vice remplacé par l'amour de soi, le bien commun pour tous sera servi
+
+**Thorstein Veblen: Théorie de la classe de loisir**
+
+**F.Scott Fitzgerald: Gatsby le Magnifique**
+
+La capitalisme après 1968 est devenu entièrement libidinal.
+La Chine communiste est capitaliste.
+
+**Milton Friedman: Capitalisme et Liberté**
+
+le fétichisme de l'argent.
+
+Il met en relation la division subjective (conscient/inconscient) 
+
+avec la division sociale de la société. (Freudo-Marxisme).
+
+--> liaison entre les deux divisions
+Marx: fétichisme de la marchandise et de l'argent.
+Freud: fétichisme dans l'analyse des perversions sexuelles.
+
+--> Mandeville: perversions sociales. Freud les a laissées de côté.
+--> Le fétichisme de l'argent.
+
+Kant: - dignité et pas d'argent;
+      - argent et pas de dignité.
+
+**Thomas Piketty: Capital et idéologie**. pages 45-46
+
+Le pervers cache le trou du monde en posant le fétiche de la merde.
+
+1908: L'or dont le diable fait cadeau à ses adorateurs se change en excrément après son départ.
+
+**Deleuze et Guattari: Capitalisme et schizophrénie**
+
+Enclosure: Prise de possession de terres communes par les grands propriétaires anglais à partir du XVIème siècle.
+
+Les champs accaparés étaient alors enclos par des haies ou des murs, et l'accès était réservé aux seuls paysans locataires.
+
+Lénine était un grand admirateur du taylorisme. Le socialisme a importé le taylorisme.
+
+Le fordisme est la fabrication d'une chaîne d'assemblage.
+
+--> Simone Weil: Philosophe humanisme, proche des courants anarchistes. Elle tente de comprendre la condition ouvrière
+en expérimentant le travail en milieu industriel. **La condition ouvrière**.
+--> travail: tripalium: instrument de torture.
+
+**Günther Anders: L'obsolescence de l'homme** : Sur l'âme à l'époque de la deuxième révolution industrielle, 1956
+
+IA: population surnuméraire : population égarée.
+
+Karl Marx: Livre III. Le capitalisme est la promotion généralisée du vice.
+
+Mandeville: libération des passions et des pulsions --> Discours de Hayek: il n'y a plus de sujets mais des consommateurs.
+
+Adorno: Les industries culturelles.
+
+Culture de l'immaitrise est glorifiée.
+
+La maitrise est ringarde.
+
+Les Lumières anglaises prévalent sur les Lumières françaises. Evoquer des contre-vérité.
+
+- Les scélérats
+- Les névrosés
+- les pervers
+
+--> la croissance: exploitation à outrance du monde et donc de destruction --> destruction des équilibres naturels.
+
+--> affichage des pulsions: l'élection de Trump: affichage de contre-vérité, de vices.
+
+On est sorti de la troisième classe sociale ambiguë pour entrer dans un côté sadien.
+
+Donation Alphonse François de Sade (1740 - 1814). Romancier et philosophe français, plus connu sous le nom de Marquis de Sade.
+
+Il est emprisonné sous différents régimes pour ses écrits faisant l'apologie de la violence sexuelle.
+
+Mandeville (Le bien et le mal sont indistinguables): début du XVIIIème siècle et Sade (choix du mal): fin du XVIIIème siècle.
+
+**Theodor W. Adorno , Max Horkheimer: Dialectique de la raison**. 
+
+Maintenant, les relations interpersonnelles sont déterminées par l'emprise que je peux avoir sur l'autre.
+
+Mandeville promeut une société cynique et perverse.
+
+Le pervers a son fétiche: objet magique qui permet de provoquer un certain nombre de phénomènes dont je suis le maître.
+Le vertueux (névrosé) a son phantasme.
+Le super-fétiche actuel est le capitalisme financier qui produit de l'argent en quantité infinie.
+
+- L'argent permet d'acheter tout.
+- Je peux le dissimuler.(paradis fiscaux)
+- L'argent pond de l'argent.
+
+**Gilles Deleuze: Capitalisme et schizophrénie**
+
+--> La capitalisme a la capacité de décoder les flux pour les recoder sur la marchandise.
+--> Le capitalisme est hanté par son renouvellement infini. Il est intéressé à entendre tout ce qui est de l'ordre de la transgression.
+--> schizophrène pervers: Il produit des objets inusités qu'il ne pensait pas produire.
+--> inclure toutes les marges.
+
+On est soumis à Dieu, soumis à la Religion, soumis au tyran, soumis au marché pour ne pas accéder à la pensée critique.
+Chacun est enfermé dans son ghetto identitaire (réseaux sociaux)et en lutte contre un autre guetto identitaire.
+Les grecs proposent l'élévation (ariston), le logos. La culture permet la maitrise de mes pulsions et de mes passions.
+
+**Alain: Propos sur l'éducation**. L'élève sublime ses pulsions et ses passions.
+
+Pléonexie: vouloir avoir plus que sa part.
+
+Gary S. Backer: Le capital humain. (tenant de l'école de Chicago), grand ami de Bourdieu
+
+Maxime kantienne: Ne fais aux autres que tu ne voudrais pas qu'on te fasse.
+La culture est un moyen d'élever un individu au-dessus de sa condition. 
+Le plan Langevin-Vallon permettait d'apporter la culture et l'éducation à tous ==> moyens de maitriser ses pulsions, ses passions en les disciplinant, en les organisant.
+
+Le marché est la lutte infinie des intérêts privés. Il faut laisser faire le marché.
+On fait taire le point de vue du collectif. Le politique est condamné à l'impuissance.
+
+Les premières expériences du néolibéralisme ont été menés sous l'égide de Hayek et de Friedman dans le Chili de Pinochet.
+Le social est devenu une jungle.
+
+**Jean-François Lyotard: La Condition postmoderne** (Fin des grands récits religieux et modernes)
+
+**Platon: Gorgias** (ne pas être esclave de ses passions et de ses pulsions)
+
+Libre arbitre et autonomie de la pensée.
+
+Le néolibéralisme est en train de détruire le monde, le lien social, les subjectivités. Et tout cela doit être conservé.
+Le néolibéralisme détruit le monde social, le monde physique, le monde social et faut conserver le monde dans lequel nous sommes.
+D'où la création de Conservatoires pour préserver la pensée, des façons de faire, qu'elles se diffusent, qu'elles soient enregistrées, 
+qu'elles soient codées, diffusent.
+
+Le nazisme s'est construit sur une non connaissance d'une commune humanité. Hommes et sous-hommes.
+Le stalinisme s'est construit sur le fait que l'individu n'existait pas mais sur le collectif.
+Le communisme s'est fracassé sur l'individu qui continuait à exister.
+Le néolibéralisme continue à exister sur ce qui est passionnel et pulsionnel. Il existe une culture humaine sous diverses civilisations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
