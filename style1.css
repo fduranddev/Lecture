@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Feuille de style – fiche de lecture (Madame Bovary)
+   À placer dans le même dossier que le fichier HTML.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   1. Variables (couleurs)
+   On définit les couleurs une seule fois ici ; pour changer l'apparence,
+   il suffit de modifier ces valeurs.
+   -------------------------------------------------------------------------- */
+:root {
+	--fond: #ffffff;                 /* couleur de fond de la page */
+	--texte: #1f2328;                /* couleur du texte */
+	--accent: #7a2e3a;               /* bordeaux : étiquettes en gras */
+	--trait: rgba(0, 0, 0, 0.18);    /* gris clair : trait sous le titre */
+}
+
+/* Mode sombre : activé automatiquement si le système est en thème sombre */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--fond: #17181a;
+		--texte: #e6e3dd;
+		--accent: #d99aa5;
+		--trait: rgba(255, 255, 255, 0.2);
+	}
+}
+
+
+/* --------------------------------------------------------------------------
+   2. Page
+   -------------------------------------------------------------------------- */
+
+/* Le fond est aussi appliqué à <html> pour éviter une bande blanche
+   quand la page est plus petite que la fenêtre */
+html {
+	background: var(--fond);
+}
+
+body {
+	max-width: 42rem;                /* largeur maximale : lignes de texte lisibles */
+	margin: 0 auto;                  /* centre la page horizontalement */
+	padding: 2rem 1.25rem 4rem;      /* haut | côtés | bas */
+	background: var(--fond);
+	color: var(--texte);
+	font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+	font-size: 1.0625rem;            /* soit 17px */
+	line-height: 1.7;                /* interligne aéré pour un texte à empattements */
+	overflow-wrap: break-word;       /* coupe les mots très longs au lieu de déborder */
+}
+
+
+/* --------------------------------------------------------------------------
+   3. Titre
+   -------------------------------------------------------------------------- */
+h1 {
+	margin: 0 0 1.5rem;              /* espace sous le titre uniquement */
+	padding-bottom: 0.3em;           /* espace entre le texte et le trait */
+	font-size: 2.25rem;
+	font-weight: normal;             /* pas de gras, plus sobre */
+	line-height: 1.2;
+	border-bottom: 1px solid var(--trait);   /* trait fin sous le titre */
+}
+
+
+/* --------------------------------------------------------------------------
+   4. Paragraphes et mise en forme du texte
+   -------------------------------------------------------------------------- */
+p {
+	margin: 0 0 1.1rem;              /* espace entre deux paragraphes */
+}
+
+/* Étiquettes en début de paragraphe (« Titre : », « Auteur : », etc.).
+   :first-child cible seulement le premier <strong> du paragraphe,
+   donc « comices agricoles » (au milieu d'un texte) reste en gras normal. */
+p > strong:first-child {
+	color: var(--accent);
+}
+
+/* Titre de l'œuvre en italique */
+em {
+	font-style: italic;
+}
+
+
+/* --------------------------------------------------------------------------
+   5. Impression / export PDF
+   Ces règles ne s'appliquent que lorsque la page est imprimée.
+   -------------------------------------------------------------------------- */
+@media print {
+	/* Couleurs fixes pour l'impression, même si le système est en mode sombre */
+	:root {
+		--fond: #ffffff;
+		--texte: #000000;
+		--accent: #7a2e3a;
+		--trait: rgba(0, 0, 0, 0.3);
+	}
+
+	body {
+		max-width: none;             /* utilise toute la largeur de la feuille */
+		padding: 0;
+		font-size: 11pt;             /* taille adaptée au papier */
+	}
+
+	p {
+		break-inside: avoid;         /* évite de couper un paragraphe entre deux pages */
+	}
+}
