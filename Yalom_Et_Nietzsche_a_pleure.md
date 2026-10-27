@@ -14,6 +14,14 @@
 
 **Fiction et réalité :** Lou Salomé a bien rencontré Nietzsche en 1882, et Breuer, mentor de Freud, a réellement existé. En revanche, la relation thérapeutique entre Breuer et Nietzsche est une invention de Yalom, psychiatre lui-même, qui s'en sert pour mettre en scène les débuts de la psychothérapie moderne.
 
+**Références :**
+- Friedrich Nietzsche, _**Le Gai Savoir**_ (1882) : l'année même où se situe le roman, avec la formule « devenir celui que l'on est ».
+- Friedrich Nietzsche, _**Ainsi parlait Zarathoustra**_ (1883-1885) : la liberté, le destin, l'« éternel retour ».
+- Friedrich Nietzsche, _**Ecce homo**_ (1888, publié en 1908) : sous-titré « Comment on devient ce que l'on est ».
+- Josef Breuer et Sigmund Freud, _**Études sur l'hystérie**_ (1895) : le cas d'Anna O. et la « cure par la parole » (*talking cure*).
+- Lou Andreas-Salomé, _**Friedrich Nietzsche dans ses œuvres**_ (1894) : le témoignage de celle qui l'a connu en 1882.
+- Irvin D. Yalom, _**Thérapie existentielle**_ (1980) : les quatre angoisses fondamentales (la mort, la liberté, la solitude, l'absence de sens).
+
 **Ce que j'ai aimé :** La manière dont Yalom rend la philosophie vivante et accessible, en la faisant passer par un dialogue entre deux hommes plutôt que par un exposé théorique. Les idées de Nietzsche (devenir ce que l'on est, accepter son destin, la liberté face à la mort) prennent un sens très concret. J'ai aussi apprécié le suspense de l'intrigue et la finesse avec laquelle le roman décrit ce qui se joue dans une relation thérapeutique.
 
 **Ce qui m'a résisté :** Certains passages théoriques sont denses et les longues séances de dialogue ralentissent le récit. Les personnages sont aussi plus vrais que nature : l'auteur prête à Nietzsche et à Breuer des pensées et des réactions qui relèvent de la fiction, et on peut hésiter entre le plaisir du roman et la rigueur historique.

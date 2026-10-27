@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Debord_La_Societe_du_spectacle.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="la-société-du-spectacle">La Société du spectacle</h1>
+<ul>
+<li><strong>Titre :</strong> <em>La Société du spectacle</em></li>
+<li><strong>Auteur :</strong> Guy Debord (1967)</li>
+<li><strong>Genre :</strong> Essai / Théorie critique / Philosophie politique</li>
+</ul>
+<p><strong>En une phrase :</strong> Une analyse de la société capitaliste moderne, où les rapports sociaux, la consommation et la vie quotidienne passent par des images et des représentations, au détriment de l'expérience vécue.</p>
+<h2 id="idée-principale-retenue">Idée principale retenue</h2>
+<p>Pour Debord, le spectacle n'est pas une simple accumulation d'images ou de médias : c'est un rapport social médiatisé par les images. Dans une société dominée par la marchandise, la vie authentique est remplacée par sa représentation. L'individu devient spectateur de sa propre existence, passif et séparé des autres, et la contemplation prend la place de l'action. Le livre s'inspire de Marx (aliénation, fétichisme de la marchandise) et de Lukács, et il a nourri l'Internationale situationniste et la pensée critique du XXᵉ siècle.</p>
+<h2 id="structure">Structure</h2>
+<p>221 thèses, courtes et numérotées, regroupées en neuf chapitres :</p>
+<ol>
+<li>La séparation achevée</li>
+<li>La marchandise comme spectacle</li>
+<li>L'unité et la division dans l'apparence</li>
+<li>Le prolétariat comme sujet et comme représentation</li>
+<li>Le temps et l'histoire</li>
+<li>Le temps spectaculaire</li>
+<li>L'aménagement du territoire</li>
+<li>La négation et la consommation dans la culture</li>
+<li>L'idéologie matérialisée</li>
+</ol>
+<h2 id="références">Références</h2>
+<ul>
+<li>Karl Marx, <em><strong>Le Capital</strong></em> (livre I, 1867) : le fétichisme de la marchandise (livre I, chapitre 1, section 4).</li>
+<li>Karl Marx, <em><strong>Manuscrits économico-philosophiques de 1844</strong></em> : la théorie de l'aliénation.</li>
+<li>Karl Marx et Friedrich Engels, <em><strong>L'Idéologie allemande</strong></em> (1845-1846) : l'idéologie et le rapport entre conscience et vie matérielle.</li>
+<li>Georg Lukács, <em><strong>Histoire et conscience de classe</strong></em> (1923) : la réification (essai « La réification et la conscience du prolétariat »).</li>
+<li>Hegel, dont Debord reprend la dialectique, et Feuerbach, cité en exergue (préface de la deuxième édition de <em><strong>L'Essence du christianisme</strong></em>).</li>
+</ul>
+<h2 id="internet">Internet</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=O3QJCLVMpNY">La philosophie de GUY DEBORD</a></li>
+<li><a href="https://www.youtube.com/watch?v=ptR6IQwobf4">La société du spectacle - Guy Debord - Yann Kerninon</a></li>
+<li><a href="https://www.youtube.com/watch?v=r6mERrGVcJE&amp;t=1012s">La société du spectacle - Guy Debord - Politikon : 12:49</a></li>
+</ul>
+<h2 id="ce-que-jai-aimé">Ce que j'ai aimé</h2>
+<p><em>(à personnaliser)</em> La force de la formule et la radicalité du projet : Debord offre une grille de lecture qui reste frappante à l'ère des réseaux sociaux et de la publicité omniprésente. Son style aphoristique, proche de la maxime, donne à chaque thèse un impact immédiat.</p>
+<h2 id="ce-qui-ma-résisté">Ce qui m'a résisté</h2>
+<p><em>(à personnaliser)</em> L'écriture dense, abstraite et très dialectique, héritée de Hegel et de Marx, rend la lecture exigeante. Le recours au détournement (citations réutilisées sans guillemets) et la forme en thèses demandent une lecture lente et parfois un appui sur un commentaire. Le ton très tranché laisse peu de place à la nuance.</p>
+<h2 id="citation-préférée">Citation préférée</h2>
+<blockquote>
+<p>« Tout ce qui était directement vécu s'est éloigné dans une représentation. »</p>
+</blockquote>
+<h2 id="je-recommande-à">Je recommande à</h2>
+<p>Toute personne intéressée par la critique des médias, de la consommation et de la société de l'image, ainsi qu'aux lecteurs de philosophie politique ou de pensée marxiste prêts à une lecture exigeante.</p>
+<h2 id="note">Note</h2>
+<p>… /5</p>
+<h2 id="notes-de-lecture">Notes de lecture</h2>
+<ul>
+<li>Spectacle = métaphore théâtrale</li>
+<li>Aliénation</li>
+<li>Capitalisme consumériste = aliénation productiviste</li>
+<li>S'aliéner plus pour consommer plus</li>
+</ul>
+<blockquote>
+<p>Le spectacle est le résultat et le projet du mode de production existant. Il n'est pas un supplément au monde réel, sa décoration surajoutée. Il est le cœur de l'irréalisme de la société réelle. Sous toutes ses formes particulières, information ou propagande, publicité ou consommation directe de divertissements, le spectacle constitue le modèle présent de la vie socialement dominante.</p>
+</blockquote>
+<h3 id="les-trois-formes-du-spectacle">Les trois formes du spectacle</h3>
+<ol>
+<li><strong>Information (propagande) :</strong> maintenir une certaine représentation du monde : le capitalisme est le seul mode de vie possible.</li>
+<li><strong>Publicité (détournement de nos désirs) :</strong> non pas vers l'action politique (la rencontre de l'autre, l'amour ou la sexualité), mais essentiellement vers des actes de consommation de biens et de services.</li>
+<li><strong>Divertissement (vie par procuration) :</strong> on s'embête dans cette société.</li>
+</ol>
+<p>Le peuple est donc abreuvé jour et nuit d'un spectacle.</p>
+<h3 id="représentation-et-expérience">Représentation et expérience</h3>
+<p><strong>Tout ce qui était directement vécu s'est éloigné dans une représentation.</strong>
+Représentation ≠ Expérience. Quelle est ma vie réelle ?</p>
+<ul>
+<li>Ma vie me permet-elle d'être digne ou non ? Ma vie est-elle en accord avec mes valeurs et mes convictions ?</li>
+<li>Suis-je obligé de compenser la nullité de mon existence réelle par une accumulation infinie de spectacle ?</li>
+</ul>
+<p><strong>Société du spectacle intégré :</strong> deviens toi-même uniquement un spectacle.</p>
+
+</body>
+</html>
