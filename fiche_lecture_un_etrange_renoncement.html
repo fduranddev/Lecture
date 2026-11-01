@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fiche_lecture_un_etrange_renoncement.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="fiche-de-lecture--un-étrange-renoncement">Fiche de lecture : <em><strong>Un étrange renoncement</strong></em></h1>
+<p><strong>Auteur :</strong> Denis Olivennes<br>
+<strong>Éditeur :</strong> Albin Michel<br>
+<strong>Parution :</strong> 2021<br>
+<strong>Genre :</strong> Essai politique et économique<br>
+<strong>Date de lecture :</strong> novembre 2026</p>
+<hr>
+<h2 id="1-présentation-générale"><strong>1. Présentation générale</strong></h2>
+<p>Denis Olivennes s'interroge sur ce qu'il considère comme un paradoxe de
+la société française : la méfiance envers la croissance économique, le
+travail, le marché et la méritocratie, alors que le progrès a longtemps
+été présenté comme un objectif collectif.</p>
+<p>L'auteur défend l'idée qu'une économie dynamique est nécessaire pour
+financer la solidarité, améliorer les conditions de vie et préserver la
+cohésion sociale. Il plaide pour un progrès économique associé à des
+valeurs humanistes.</p>
+<h2 id="2-idée-principale"><strong>2. Idée principale</strong></h2>
+<blockquote>
+<p>Une société ne peut durablement préserver son modèle social si elle
+renonce à créer les richesses qui contribuent à le financer. Il faut
+également réfléchir à la répartition de ces richesses et à leur
+utilité sociale.</p>
+</blockquote>
+<h2 id="3-les-grandes-idées-à-retenir"><strong>3. Les grandes idées à retenir</strong></h2>
+<h3 id="31-la-croissance-économique">3.1. La croissance économique</h3>
+<p>La création de richesses est présentée comme une condition importante du
+progrès social et du financement des services collectifs.</p>
+<h3 id="32-le-travail-et-leffort">3.2. Le travail et l'effort</h3>
+<p>Le travail est envisagé comme une source de richesse, d'autonomie et
+d'intégration dans la société.</p>
+<h3 id="33-linnovation-et-le-progrès">3.3. L'innovation et le progrès</h3>
+<p>L'auteur défend l'innovation scientifique, technique et économique, tout
+en posant la question de la direction que doit prendre le progrès.</p>
+<h3 id="34-le-marché-et-la-redistribution">3.4. Le marché et la redistribution</h3>
+<p>Le marché contribue à créer des richesses ; la solidarité et les
+politiques publiques participent à leur redistribution.</p>
+<h3 id="35-la-méritocratie-et-la-république">3.5. La méritocratie et la République</h3>
+<p>L'essai défend une conception républicaine de la réussite, de l'effort
+et de l'intégration autour de valeurs communes.</p>
+<h2 id="4-regard-critique"><strong>4. Regard critique</strong></h2>
+<p>Pour examiner les arguments de l'auteur, quelques questions peuvent
+guider la réflexion :</p>
+<ul>
+<li>Toute croissance économique améliore-t-elle les conditions de vie ?</li>
+<li>Comment prendre en compte la précarité et les conditions de travail
+?</li>
+<li>Comment limiter les inégalités et les effets négatifs du marché ?</li>
+<li>Comment concilier innovation, environnement et précaution ?</li>
+<li>Les chances de réussite sont-elles réellement égales pour tous ?</li>
+</ul>
+<p>Ces questions permettent de distinguer les constats, les interprétations
+et les convictions politiques de l'auteur.</p>
+<h2 id="5-liens-avec-dautres-penseurs"><strong>5. Liens avec d'autres penseurs</strong></h2>
+<ul>
+<li><strong>Karl Marx :</strong> travail, capital, richesse et inégalités.</li>
+<li><strong>Joseph Schumpeter :</strong> innovation et « destruction créatrice ».</li>
+<li><strong>André Gorz :</strong> critique de la croissance, écologie politique et
+place du travail.</li>
+</ul>
+<p>Ces rapprochements permettent de situer l'essai dans un débat plus large
+sur la prospérité, la justice sociale et les limites du progrès
+économique.</p>
+<h2 id="6-ma-fiche-personnelle"><strong>6. Ma fiche personnelle</strong></h2>
+<h3 id="idée-principale-que-je-retiens">Idée principale que je retiens</h3>
+<ul>
+<li>La croissance économique est vitale pour le pays.</li>
+<li>Les différentes mesures politiques ont plombé l'économie du pays:
+nous sommes dans une social-technocratie.</li>
+</ul>
+<h3 id="ce-que-jai-apprécié">Ce que j'ai apprécié</h3>
+<ul>
+<li>La clarté de l'exposé, organisé en petits chapitres.</li>
+</ul>
+<h3 id="ce-qui-ma-fait-réfléchir-ou-que-je-conteste">Ce qui m'a fait réfléchir ou que je conteste</h3>
+<ul>
+<li>On ne peut pas contester que la croissance économique est importante
+pour le pays.</li>
+<li>Mais l'avènement du néolibéralisme dans les années quatre-vingt et
+toutes les mesures prises par la suite ont notablement affecté
+l'économie : libre-échange, entrée de la Chine dans l'OMC en 2001,
+délocalisation de la production, passage aux 35 heures, regroupement
+familial.</li>
+<li>Je suis dubitatif quant à la répartition des richesses : les riches
+s'enrichissent toujours plus et une partie de la population
+s'appauvrit.</li>
+<li>Voir le rapport de l'Institut Thomas More.</li>
+</ul>
+<h3 id="citation-préférée-et-numéro-de-page">Citation préférée et numéro de page</h3>
+<blockquote>
+<p>« La France n'a pas besoin d'un plan. c'est un élan qu'elle réclame. »</p>
+</blockquote>
+<p><strong>Page :</strong></p>
+<h3 id="à-qui-recommanderais-je-ce-livre-">À qui recommanderais-je ce livre ?</h3>
+<ul>
+<li>À toute personne qui souhaite comprendre les problèmes actuels de
+notre pays.</li>
+<li>Il faut le lire conjointement avec le rapport de l'Institut Thomas
+More : <em><strong>Les 50 mesures qui ont coulé la France</strong></em>.</li>
+</ul>
+<h3 id="ma-note-personnelle">Ma note personnelle</h3>
+<p><strong>Note :</strong> 5/ 5</p>
+<h2 id="7-conclusion">7. Conclusion</h2>
+<p>Cet essai défend l'idée que la solidarité et l'amélioration des
+conditions de vie nécessitent une économie dynamique. Il invite à
+débattre de la place de la croissance, du travail et de l'innovation,
+mais aussi de la répartition des richesses et du sens que nous donnons
+au progrès.</p>
+<p><strong>À retenir :</strong> Le débat ne porte pas seulement sur la production de
+richesses, mais aussi sur leur répartition et leur utilité sociale.<br>
+Les condtions de la croissance ne sont pas d'abord <em><strong>économiques</strong></em>, mais <em><strong>sociales</strong></em>.<br>
+La croissance naît dans un système de valeurs et de croyances qui favorisent l'innovation,
+la prise de risque, l'esprit d'aventure et d'affaires; Si ces conditions culturelles ne sont
+pas réunies , alors l'oxygène de la croissance, donc du bien-être, se raréfie.</p>
+
+</body>
+</html>
