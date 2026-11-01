@@ -135,5 +135,5 @@ au progrès.
 richesses, mais aussi sur leur répartition et leur utilité sociale.\
 Les condtions de la croissance ne sont pas d'abord ***économiques***, mais ***sociales***.\
 La croissance naît dans un système de valeurs et de croyances qui favorisent l'innovation,
-la prise de risque, l'esprit d'aventure et d'affaires; Si ces conditions culturelles ne sont
+la prise de risque, l'esprit d'aventure et d'affaires. Si ces conditions culturelles ne sont
 pas réunies , alors l'oxygène de la croissance, donc du bien-être, se raréfie.
