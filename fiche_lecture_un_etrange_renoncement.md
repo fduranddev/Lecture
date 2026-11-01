@@ -108,7 +108,7 @@ sur la prospérité, la justice sociale et les limites du progrès
 
 ### Citation préférée et numéro de page
 
-> « La France n'a pas besoin d'un plan. c'est un élan qu'elle réclame. »
+> « La France n'a pas besoin d'un plan, c'est un élan qu'elle réclame. »
 
 **Page :**
 
