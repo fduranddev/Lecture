@@ -14,3 +14,4 @@
 |*Zygmunt Bauman*     | [Vivre dans la modernité liquide](https://github.com/fduranddev/Lecture/raw/main/Vivre_dans_la_modernite_liquide._Zygmunt_Bauman.pdf)|
 |*Institut Thomas More* | [Les 50 décisions qui ont coulé la France](https://github.com/fduranddev/Lecture/raw/main/Rapport_Thomas_More_50_mesures.pdf)|
 |*Romain Treffel* | [Top 100 de la pensée](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Top_100_de_la_Pensee.html)|
+|*Raymond Aron* | [L'opium des intellectuels](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Raymond_Aron_L_opium_des_intellectuels.html)|

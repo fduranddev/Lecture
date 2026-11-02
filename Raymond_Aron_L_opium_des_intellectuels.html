@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Raymond_Aron_L_opium_des_intellectuels.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>Raymond Aron, dans son œuvre majeure <em>L'Opium des intellectuels</em>, analyse les dérives de l'engagement intellectuel, qu'il désigne comme l'« <strong>aveuglement idéologique</strong> ». Il cible en particulier les intellectuels de gauche, dont Jean-Paul Sartre qu'il considère comme l'archétype de cet aveuglement. Aron, un penseur libéral, développe cette critique au milieu des années 1950, en pleine Guerre Froide, période durant laquelle le communisme exerce une forte séduction en France.</p>
+<p>Selon Aron, l'engagement intellectuel, lorsqu'il dérive, est faussé par plusieurs biais et se nourrit d'une foi irrationnelle :</p>
+<ul>
+<li>
+<p><strong>Les biais de jugement</strong> :</p>
+<ul>
+<li><strong>Le deux poids deux mesures</strong> : Les intellectuels de gauche ont tendance à condamner avec virulence les actions négatives des États-Unis (comme le maccarthysme) tout en minimisant ou justifiant les mêmes actions de l'URSS ou des régimes communistes. Leur morale n'est pas impartiale, elle dépend de l'étiquette idéologique des personnes jugées.</li>
+<li><strong>La valorisation de la violence révolutionnaire</strong> : Pour de nombreux intellectuels engagés, la fin, c'est-à-dire la révolution, justifie les moyens, y compris la violence. La souffrance des victimes devient secondaire si elle s'inscrit dans l'accomplissement d'un but supérieur et sacré, comme la construction d'un monde juste. Ce biais remonte à la Révolution française, interprétée par Hegel comme une violence au service de la raison.</li>
+<li><strong>La confusion entre l'engagement et la recherche de la vérité</strong> : Ces intellectuels estiment que défendre une cause juste leur donne automatiquement raison, reléguant la vérité au second plan face à la force de leurs convictions. Ils rejettent ou ignorent les preuves et les réalités embarrassantes qui contredisent leur idéologie, comme le refus d'admettre l'impact positif du Plan Marshall sur la reconstruction française. Sartre est l'incarnation de cet engagement moral qui prime sur l'analyse factuelle.</li>
+</ul>
+</li>
+<li>
+<p><strong>La cause principale : L'optimisme historique et la foi en un avenir radieux</strong> :</p>
+<ul>
+<li>Les intellectuels marxistes adhèrent à une <strong>vision téléologique de l'histoire</strong>, où l'humanité est orientée vers un but inéluctable : le socialisme. Les douleurs du présent sont alors perçues comme de simples convulsions d'un monde voué à disparaître. Les faits ne sont pas jugés en eux-mêmes mais en fonction de leur contribution à ce &quot;destin historique&quot;.</li>
+<li>La <strong>fascination pour la Révolution</strong> (avec un grand R) est centrale ; elle incarne la rupture absolue et la promesse d'un monde purifié, rendant toute réforme tiède. Cette fascination conduit à un « romantisme de la guerre civile » où la foi balaie les doutes et relativise les violences.</li>
+<li>Le marxisme est vu comme un <strong>millénarisme moderne</strong>, une pensée utopique qui promet un monde parfait après une grande rupture, avec la classe ouvrière comme sauveur de l'humanité, à l'instar d'un paradis terrestre.</li>
+</ul>
+</li>
+<li>
+<p><strong>Le marxisme comme religion séculière</strong> :</p>
+<ul>
+<li>Aron compare le marxisme à une religion sans Dieu, dotée de <strong>dogmes intouchables</strong> : la Gauche (défendant le progrès), la Révolution (rupture violente vers un avenir radieux), et le Prolétariat (classe sociale fantasmée comme sauveur). Ces mythes ont valeur de vérités révélées et sont inattaquables par les faits.</li>
+<li>Il possède son « <strong>Église</strong> », le Parti, qui impose la vérité officielle et une autorité doctrinale absolue. Les intellectuels s'alignent sans débat, la fidélité au collectif primant sur la cohérence individuelle.</li>
+<li>Cette &quot;religion&quot; se manifeste par une <strong>intolérance envers les dissidents</strong>, traités comme des « renégats » ou des « hérétiques ». La déclaration de Sartre « tout anticommuniste est un chien » est emblématique de ce climat d'intimidation où la conformité est recherchée plutôt que la vérité ou le débat libre.</li>
+</ul>
+</li>
+</ul>
+<p>L'analyse d'Aron est profonde car elle démontre que <strong>l'intelligence ne protège pas de l'aveuglement idéologique, mais peut même le favoriser</strong> par excès de confiance dans ses propres capacités de justification. Bien que centrée sur le marxisme, elle éclaire plus généralement le <strong>fanatisme intellectuel des élites cultivées</strong> dans toute école de pensée. Enfin, Aron nous met en garde contre l'« <strong>idolâtrie de l'Histoire</strong> » (ou historicisme), c'est-à-dire la croyance en des lois de développement inévitables, rappelant que le devenir des sociétés est imprévisible et le futur reste ouvert.</p>
+<p>Sa pensée s'inscrit dans le <strong>libéralisme</strong> (défense de la liberté d'examen et de la pluralité des opinions), le <strong>rationalisme critique</strong> (où la raison sert à critiquer les théories et éliminer les erreurs, prônant la prudence et la réforme plutôt que la révolution), et l'<strong>antitotalitarisme</strong> (critiquant le communisme comme un système totalitaire qui viole les libertés individuelles).</p>
+<p>La thèse centrale de l'œuvre majeure de Raymond Aron, <em>L'Opium des intellectuels</em>, est l'analyse des dérives de l'engagement intellectuel, qu'il nomme l'« <strong>aveuglement idéologique</strong> ». Ce livre, paru en 1955 en pleine Guerre Froide, cible en particulier les intellectuels de gauche, Jean-Paul Sartre étant présenté comme l'archétype de cet aveuglement. Aron, alors âgé de 50 ans et au sommet de sa puissance intellectuelle, critique un phénomène qui, selon lui, pousse même les hommes les plus intelligents à basculer dans le fanatisme.</p>
+<p><strong>La thèse de l'aveuglement idéologique et ses manifestations :</strong></p>
+<p>Pour Aron, l'aveuglement idéologique des intellectuels de gauche est causé par une <strong>foi irrationnelle en un avenir radieux</strong>. Cette foi est nourrie par une vision téléologique de l'histoire, héritée de Marx (lui-même inspiré par Hegel), où l'humanité est perçue comme progressant inéluctablement vers le socialisme. Dans cette optique, les souffrances du présent sont relativisées, considérées comme de simples « convulsions d’un monde voué à disparaître », et les faits sont jugés non en eux-mêmes, mais en fonction de leur contribution à ce « destin historique ».</p>
+<p>Cette foi se manifeste par plusieurs biais et dérives dans le jugement des intellectuels engagés :</p>
+<ul>
+<li><strong>Le deux poids deux mesures</strong> : Les intellectuels de gauche condamnent avec virulence les actions négatives des États-Unis (comme le maccarthysme), mais minimisent ou justifient les mêmes actions lorsque l'URSS ou les régimes communistes en sont responsables. Leur morale n'est pas impartiale, mais dépend de l'étiquette idéologique des acteurs jugés.</li>
+<li><strong>La valorisation de la violence révolutionnaire</strong> : Pour ces intellectuels, la fin, c'est-à-dire la Révolution, justifie les moyens, y compris la violence. La souffrance des victimes devient secondaire si elle s'inscrit dans l'accomplissement d'un but supérieur et sacré, comme la construction d'un monde juste et égalitaire. Aron relie ce biais à l'interprétation hégélienne de la Révolution française comme une violence au service de la raison. La fascination pour la Révolution (avec un grand R) est centrale, incarnant une rupture absolue et la promesse d'un monde purifié, ce qui rend toute réforme suspecte de faire le jeu des dominants. Aron parle de « romantisme de la guerre civile ».</li>
+<li><strong>La confusion entre engagement et recherche de la vérité</strong> : Les intellectuels engagés estiment que défendre une cause juste leur donne automatiquement raison, reléguant la vérité au second plan face à la force de leurs convictions. Ils rejettent ou ignorent les preuves et les réalités embarrassantes qui contredisent leur idéologie, comme le refus d'admettre l'impact positif du Plan Marshall sur la reconstruction française. Sartre est l'archétype de cet engagement moral qui l'emporte sur l'analyse factuelle.</li>
+</ul>
+<p>Aron va jusqu'à comparer le marxisme à une <strong>religion séculière</strong>, c'est-à-dire une religion sans Dieu. Il possède :</p>
+<ul>
+<li>Des <strong>dogmes intouchables</strong> (ou « mythes ») : la Gauche (camp du progrès), la Révolution (rupture violente vers un avenir radieux), et le Prolétariat (classe sociale fantasmée comme sauveur collectif). Ces mythes ont valeur de vérités révélées et ne résistent pas à l'examen des faits.</li>
+<li>Son « <strong>Église</strong> », le Parti, qui impose la vérité officielle et une autorité doctrinale absolue. Les intellectuels s'alignent sans débat, la fidélité au collectif primant sur la cohérence individuelle.</li>
+<li>Une <strong>intolérance envers les dissidents</strong>, traités de « renégats » ou d'« hérétiques », comme l'illustre la célèbre déclaration de Sartre : « tout anticommuniste est un chien ».</li>
+</ul>
+<p><strong>Fondements intellectuels de l'analyse d'Aron :</strong></p>
+<p>L'analyse d'Aron dans <em>L'Opium des intellectuels</em> est nourrie par plusieurs sources intellectuelles :</p>
+<ul>
+<li><strong>Alexis de Tocqueville</strong> : Aron s'inspire de la notion de « tyrannie de la majorité » de Tocqueville, qui explique comment le conformisme intellectuel peut imposer les idées à la mode en démocratie.</li>
+<li><strong>Karl Marx</strong> : De manière ironique, Aron retourne contre les marxistes eux-mêmes la notion marxiste d'« idéologie » – un discours qui masque les intérêts réels derrière des justifications abstraites. Il soutient que les intellectuels marxistes, tout comme les bourgeois capitalistes du XIXe siècle, défendent des idées favorables à leur propre domination.</li>
+<li><strong>Max Weber</strong> : Maître à penser d'Aron en sociologie, Weber lui fournit la distinction entre l'<strong>éthique de conviction</strong> (morale de l'intention) et l'<strong>éthique de responsabilité</strong> (morale des conséquences). Cela permet à Aron de dénoncer les intellectuels marxistes qui, au nom de grands principes, ferment les yeux sur les effets concrets et souvent désastreux des régimes qu'ils soutiennent. Aron est d'ailleurs un sociologue dans la tradition individualiste de Weber, à l'opposé de la tradition holiste de Durkheim qui dominait en France à l'époque.</li>
+</ul>
+<p>L'analyse d'Aron s'inscrit également dans des courants de pensée plus larges :</p>
+<ul>
+<li>Le <strong>libéralisme</strong> : en défendant la liberté d'examen par la raison et la pluralité des opinions face à un pouvoir qui prétend détenir la vérité historique.</li>
+<li>Le <strong>rationalisme critique</strong> : inspiré par Popper, Aron applique l'idée que la raison sert à critiquer les théories et éliminer les erreurs, plutôt qu'à prouver des vérités absolues. Il prône la prudence et la réforme plutôt que la révolution.</li>
+<li>L'<strong>antitotalitarisme</strong> : Aron critique le communisme non seulement comme un régime autoritaire, mais comme un système totalitaire qui viole les libertés individuelles, rejoignant des penseurs comme Orwell ou Arendt.</li>
+</ul>
+<p>En somme, Aron montre que l'intelligence ne protège pas nécessairement de l'aveuglement idéologique, mais peut même le favoriser par excès de confiance. Son analyse éclaire le fanatisme intellectuel des élites cultivées et met en garde contre l'« idolâtrie de l'Histoire » – la croyance en des lois de développement inévitables.</p>
+<p>L'analyse de Raymond Aron dans <em>L'Opium des intellectuels</em> a eu une <strong>influence durable et significative sur le paysage intellectuel</strong>, particulièrement en France. Bien que le livre n'ait plus le « parfum de scandale » qu'il avait à sa sortie en 1955 et que le grand public ne le connaisse plus, il a acquis le statut de « classique » et de « manifeste libéral français du XXe siècle » dans les milieux intellectuels, universitaires et politiques.</p>
+<p>L'influence durable des idées d'Aron se manifeste de plusieurs manières :</p>
+<ul>
+<li>
+<p><strong>Reconnaissance et validation historique</strong> : Le fait que l'histoire ait « largement donné raison à Aron » a renforcé l'aura de <em>L'Opium des intellectuels</em>. Sa critique de l'aveuglement idéologique des intellectuels, initialement centrée sur le marxisme, est devenue une grille de lecture pertinente au-delà de son contexte initial.</p>
+</li>
+<li>
+<p><strong>Inspiration pour les héritiers intellectuels</strong> : L'œuvre d'Aron a inspiré de nombreux penseurs, notamment ses héritiers français.</p>
+<ul>
+<li><strong>Jean-François Revel</strong>, essayiste libéral, a prolongé le diagnostic d'Aron concernant la malhonnêteté intellectuelle de la gauche dans son essai <em>La Connaissance inutile</em> (1988), soulignant que l'abondance de la connaissance n'empêche pas l'aveuglement idéologique, et que même à l'ère de l'information, les intellectuels ignorent les faits.</li>
+<li>L'historien <strong>François Furet</strong>, ancien communiste fortement influencé par <em>L'Opium des intellectuels</em> après sa rupture avec le marxisme, a approfondi l'analyse d'Aron sur le mythe de la Révolution. Il a « libéré la Révolution française de l'emprise idéologique marxiste » dans <em>Penser la Révolution française</em> et a dénoncé la mythologie de la révolution communiste dans <em>Le Passé d'une illusion</em>.</li>
+<li><strong>Pierre Manent</strong>, philosophe et disciple direct d'Aron, perpétue la méfiance de son maître envers les grandes constructions idéologiques, critiquant par exemple la transformation des droits de l'homme ou de la construction européenne en « dogmes absolus qui entravent la lucidité politique ».</li>
+</ul>
+</li>
+<li>
+<p><strong>Application à de nouvelles idéologies</strong> : Le titre même de l'œuvre, <em>L'Opium des intellectuels</em>, est devenu une « expression consacrée pour désigner l'aveuglement idéologique des intellectuels ». L'analyse d'Aron, bien que spécifique au marxisme de son époque, est désormais appliquée à de <strong>nouvelles idéologies de gauche, comme le militantisme radical ou le wokisme</strong>. Ceci démontre la <strong>portée générale de son analyse sur le fanatisme intellectuel des élites cultivées</strong> et la <strong>corruption idéologique de l'intelligence</strong>.</p>
+</li>
+<li>
+<p><strong>Mise en garde contre l'idolâtrie de l'Histoire</strong> : L'analyse d'Aron nous invite à nous méfier de l'« idolâtrie de l'Histoire » (ou historicisme), c'est-à-dire la croyance en des lois de développement inévitables ou des tendances irrésistibles dans l'histoire humaine, rappelant que <strong>le devenir des sociétés est imprévisible et que le futur reste ouvert</strong>. Cette contribution reste fondamentale pour le rationalisme critique.</p>
+</li>
+</ul>
+<p>En résumé, les idées d'Aron, ancrées dans le libéralisme, le rationalisme critique et l'antitotalitarisme, ont laissé une empreinte indélébile en fournissant des outils conceptuels pour critiquer la soumission de la pensée à l'idéologie, influençant des générations de penseurs et restant pertinentes face aux nouvelles manifestations de l'aveuglement intellectuel.</p>
+
+</body>
+</html>
