@@ -11,4 +11,4 @@
 |Gustave Flaubert   | [Madame Bovary](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Flaubert_Madame_Bovary.html)|
 |Barbara Stiegler   | [Il faut s'adapter](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Barbara_Stiegler_Il_faut_s_adapter.html)|
 |Kosmos Littéraire  | [Livres classiques](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Livres_classiques.html)|
-|Zygmunt Bauman     | [Vivre dans la modernité liquide](https://github.com/fduranddev/Lecture/raw/main/Vivre_dans_la_modernite_liquide._Zygmunt_Bauman.pdf)|
+|Zygmunt Bauman     | [Vivre dans la modernité liquide](https://github.com/fduranddev/Lecture/blob/main/Vivre_dans_la_modernite_liquide._Zygmunt_Bauman.pdf)|
