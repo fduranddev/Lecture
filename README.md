@@ -12,4 +12,4 @@
 |*Barbara Stiegler*   | [Il faut s'adapter](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Barbara_Stiegler_Il_faut_s_adapter.html)|
 |*Kosmos Littéraire*  | [Livres classiques](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Livres_classiques.html)|
 |*Zygmunt Bauman*     | [Vivre dans la modernité liquide](https://github.com/fduranddev/Lecture/raw/main/Vivre_dans_la_modernite_liquide._Zygmunt_Bauman.pdf)|
-|Institut Thomas More | [Les 50 décisions qui ont coulé la France](https://github.com/fduranddev/Lecture/raw/main/Rapport_Thomas_More_50_mesures.pdf)|
+|*Institut Thomas More* | [Les 50 décisions qui ont coulé la France](https://github.com/fduranddev/Lecture/raw/main/Rapport_Thomas_More_50_mesures.pdf)|
