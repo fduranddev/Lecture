@@ -13,17 +13,3 @@ Je suis devenu un homme de puissance parce que je me suis affranchi des contrain
 Surhomme nietzschéen.
 
 Tentation du Diable: Catholique zombie vers catholique zéro
-
-
-
-
-
-
-
-
-
-
-
-
-
-

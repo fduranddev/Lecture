@@ -399,12 +399,3 @@ Grande théorie de la philosophie politique: Le régime mixte est un peu d'arist
 
 Ce serait le meilleur des régimes.
 Qu'est-ce qui passe en France le 10 septembre 2025:
-
-
-
-
-
-
-
-
-

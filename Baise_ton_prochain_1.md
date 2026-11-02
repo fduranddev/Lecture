@@ -174,26 +174,3 @@ Le nazisme s'est construit sur une non connaissance d'une commune humanité. Hom
 Le stalinisme s'est construit sur le fait que l'individu n'existait pas mais sur le collectif.
 Le communisme s'est fracassé sur l'individu qui continuait à exister.
 Le néolibéralisme continue à exister sur ce qui est passionnel et pulsionnel. Il existe une culture humaine sous diverses civilisations.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

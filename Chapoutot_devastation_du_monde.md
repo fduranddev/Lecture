@@ -52,7 +52,6 @@ En France, fait référence à un partisan des accords de Munich(1938).
 Le Munichois incarne la faibleesse  et le renoncement des représentants des démocraties face à la dépermination 
 des partisans des totalitarismes.
 
-
 ---
 
 **Joahann Chapoutot: La loi du sang**
