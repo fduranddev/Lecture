@@ -10,4 +10,5 @@
 |Denis Olivennes    | [Un étrange renoncement](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/fiche_lecture_un_etrange_renoncement.html)|
 |Gustave Flaubert   | [Madame Bovary](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Flaubert_Madame_Bovary.html)|
 |Barbara Stiegler   | [Il faut s'adapter](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Barbara_Stiegler_Il_faut_s_adapter.html)|
-|Kosmos Littéraire  | [Livres classiques](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Livres_classiques.html)
+|Kosmos Littéraire  | [Livres classiques](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Livres_classiques.html)|
+|Zygmunt Bauman     | [Vivre dans la modernité liquide](Vivre_dans_la_modernite_liquide._Zygmunt_Bauman.pdf)|
