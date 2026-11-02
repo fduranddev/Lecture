@@ -9,3 +9,4 @@
 |Félicien Faury     | [Des électeurs ordinaires](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Felicien_Faury_Des_electeurs_ordianires.html)|
 |Denis Olivennes    | [Un étrange renoncement](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/fiche_lecture_un_etrange_renoncement.html)|
 |Gustave Flaubert   | [Madame Bovary](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Flaubert_Madame_Bovary.html)|
+|Barbara Stiegler   | [Il faut s'adapter](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Barbara_Stiegler_Il_faut_s_adapter.html)|
