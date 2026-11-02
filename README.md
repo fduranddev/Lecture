@@ -7,3 +7,4 @@
 |Dany-Robert Dufour | [Baise ton prochain](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Dany_Robert_Dufour_Baise_ton_prochain.html)|
 |Elisabeth Levy     | [Les Rien pensants](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Elisabeth_Levy_Les_Rien-pensants.html)|
 |Félicien Faury     | [Des électeurs ordinaires](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/Felicien_Faury_Des_electeurs_ordianires.html)|
+|Denis Olivennes    | [Un étrange renoncement](https://htmlpreview.github.io/?https://github.com/fduranddev/Lecture/blob/main/fiche_lecture_un_etrange_renoncement.html)|
